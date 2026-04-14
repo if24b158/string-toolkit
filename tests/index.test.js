@@ -1,17 +1,5 @@
-/**
- * Converts a string to snake_case.
- * Example: "Hello World" -> "hello_world"
- *
- * @param {string} str
- * @returns {string}
- */
-function toSnakeCase(str) {
-    return str
-        .trim()
-        .toLowerCase()
-        .replace(/\s+/g, "_");
-}
+const { toSnakeCase } = require("../src/index");
 
-module.exports = {
-    toSnakeCase
-};
+test("converts a string to snake_case", () => {
+    expect(toSnakeCase("Hello World")).toBe("hello_world");
+});
