@@ -1,0 +1,23 @@
+{
+  "name": "@kyrillos1212/string-toolkit",
+  "version": "1.0.0",
+  "description": "A small JavaScript library for string manipulation.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "toolkit",
+    "snake-case",
+    "kebab-case",
+    "javascript",
+    "npm-library"
+  ],
+  "author": "Kyrillos Abdalla",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
