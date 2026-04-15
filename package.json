@@ -19,5 +19,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
   }
 }
