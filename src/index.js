@@ -12,6 +12,14 @@ function toSnakeCase(str) {
         .replace(/\s+/g, "_");
 }
 
+function toKebabCase(str) {
+    return str
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, "-");
+}
+
 module.exports = {
-    toSnakeCase
+    toSnakeCase,
+    toKebabCase
 };
