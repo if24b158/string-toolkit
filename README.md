@@ -4,7 +4,7 @@ A small JavaScript library that provides useful string manipulation functions.
 
 ## Features
 - Convert strings to snake_case
-- Convert strings to kebab-case (coming soon)
+- Convert strings to kebab-case
 
 ## Installation
 
@@ -18,10 +18,13 @@ yarn add @if24b158/string-toolkit
 ```
 ### Usage
 ```bash
-const { toSnakeCase } = require("@if24b158/string-toolkit");
+const { toSnakeCase, toKebabCase } = require("@if24b158/string-toolkit");
 
 console.log(toSnakeCase("Hello World"));
 // Output: hello_world
+
+console.log(toKebabCase("Hello World"));
+// Output: hello-world
 ```
 ### Testing
 ```bash
